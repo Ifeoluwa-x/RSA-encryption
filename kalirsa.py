@@ -2,7 +2,7 @@
 
 import rsa
 
-# === Generate Kali key pair ===
+# === Generate Kali key pairs ===
 (pubkey, privkey) = rsa.newkeys(2048)
 
 # === Print the keys ===
